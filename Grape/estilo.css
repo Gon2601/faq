@@ -1,0 +1,51 @@
+/*body*/
+
+body{
+background-color: #e5b0ea;
+}
+
+/*titulo*/
+
+h1{
+  text-align: center;
+  font-family: Arial;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+}
+
+/*navbar*/
+
+.bg-mia{
+  background-color: #bd83ce;
+  font-family: arial;
+}
+
+.form-inline{
+text-align: center;
+
+}
+
+
+.main-nav ul{
+  float: left;
+  margin: 0;
+  padding: 0;
+
+}
+
+.main-nav ul li a{
+  display: inline-flex;
+  background-color: #000;
+  color: #ffff;
+  padding: 10px;
+  width: 150px;
+  text-decoration: none;
+
+}
+
+.main-nav ul li a:hover{
+  background: #1c2833;
+
+
+}
