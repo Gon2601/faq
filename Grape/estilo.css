@@ -10,7 +10,8 @@ background-color: #e5b0ea;
 h1{
   text-align: center;
   font-family: Arial;
-  padding: 10px;
+  padding-top: 80px;
+
   color: white;
   font-weight: bold;
 }
@@ -27,14 +28,57 @@ text-align: center;
 
 }
 
-
-.menu-nav ul{
-list-style: none;
-margin: 0;
-padding: 0;
+/*
+.main-nav ul{
+  float: left;
+  margin: 0;
+  padding: 0;
 
 }
 
-.menu-nav ul li {
+.main-nav ul li a{
+  display: inline-flex;
+  background-color: #000;
+  color: #ffff;
+  padding: 10px;
+  width: 150px;
+  text-decoration: none;
+
+}
+
+.main-nav ul li a:hover{
+  background: #1c2833;
+*/
+.main-nav{
+background-color: #8105d8;
+margin-top: 30px;
+margin-left: 120px;
+margin-right: 120px;
+padding: 20px;
+}
+
+
+
+.main-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+.main-nav ul li {
   display: inline-block;
+
+}
+
+.main-nav ul li a {
+  color: white;
+  text-align: center;
+  padding: 130px;
+
+}
+
+.main-nav ul li a:hover{
+  color: #fe59d7;
+
 }
